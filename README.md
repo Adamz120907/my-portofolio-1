@@ -1,2 +1,161 @@
-# my-portofolio-1
-this is my portofolio , for a workhome in my university - ITB-MG
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Adam Andyansyah</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sekuya&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">Portfolio</div>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-text">
+                <h1>Halo, Saya <span class="highlight">Adamz</span></h1>
+                <h2>Mahasiswa & Content Creator </h2>
+                <p>Saya membuat website yang modern dan responsive ini sebagai tugas pada matakuliah Web Programming, Prodi Bisnis Digital.</p>
+                <div class="hero-buttons">
+                    <a href="#portfolio" class="btn btn-primary">Lihat Portfolio</a>
+                    <a href="#contact" class="btn btn-secondary">Hubungi Saya</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="floating-image">
+                    <img src="adamz1.jpeg" alt="FOTO"
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">Tentang Saya</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Saya adalah <strong>Mahasiswa & Content Creator </strong> Saya sedang menempuh Pendidikan Tinggi di ITB-MG, dengan mengambil Prodi BISNIS DIGITAL dan juga suka Membuat Konten Membahas WEB3.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card popup-icon">
+                    <i class="fa-solid fa-camera-retro"></i>
+                    <h3>content creator</h3>
+                    <p>80%</p>
+                </div>
+                <div class="skill-card popup-icon">
+                    <i class="fa-solid fa-bullhorn"></i>
+                    <h3>Public Speaking</h3>
+                    <p>75%</p>
+                </div>
+                <div class="skill-card popup-icon">
+                    <i class="fa-brands fa-affiliatetheme"></i>
+                    <h3>Design Grafis</h3>
+                    <p>70%</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2 class="section-title">Portfolio</h2>
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <img src="CONTENT CREATOR.jpeg">
+                    <div class="portfolio-overlay">
+                        <h3>Project 1</h3>
+                        <p>CONTENT CREATOR</p>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="PUBLIC SPEAKER.jpeg" alt="Project 2">
+                    <div class="portfolio-overlay">
+                        <h3>Project 2</h3>
+                        <p>PUBLIC SPEAKER</p>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="DESIGN GRAFIS.jpeg" alt="Project 3">
+                    <div class="portfolio-overlay">
+                        <h3>Project 3</h3>
+                        <p>DESIGN GRAFIS</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Hubungi Saya</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item popup-icon">
+                        <i class="fas fa-envelope"></i>
+                        <p>adamztwelvee@gmail.com</p>
+                    </div>
+                    <div class="contact-item popup-icon">
+                        <i class="fas fa-phone"></i>
+                        <p>+62 882 3303 5867</p>
+                    </div>
+                    <div class="contact-item popup-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p>Grobogan, Indonesia</p>
+                    </div>
+                </div>
+                <div class="social-links">
+                    <a href="https://www.instagram.com/adamzweb3?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" class="social-icon popup-icon" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://wa.me/6288233035867" class="social-icon popup-icon" target="_blank">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+                    <a href="https://x.com/dmz0n" class="social-icon popup-icon" target="_blank">
+                        <i class="fa-solid fa-xmark"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 AdamzTwelve. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
